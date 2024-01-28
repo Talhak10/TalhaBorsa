@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply antialiased font-["Poppins"];
+}
+
+html,
+body,
+#root {
+  @apply bg-black text-white;
+}
+
+li {
+  @apply w-10 h-10 rounded-full flex items-center justify-center bg-white/20 border border-white text-center;
+}
+
